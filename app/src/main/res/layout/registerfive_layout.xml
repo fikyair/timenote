@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:gravity="center"
-            android:text="选择专属头像加入TIME"
+            android:text="欢迎加入TIME"
             android:textSize="25dp" />
 
         <View
@@ -30,7 +30,7 @@
             android:layout_width="100dp"
             android:layout_gravity="center_vertical|center_horizontal"
             android:layout_height="100dp"
-            
+
             android:layout_marginTop="10dp"
             android:scaleType="fitXY" />
     </LinearLayout>

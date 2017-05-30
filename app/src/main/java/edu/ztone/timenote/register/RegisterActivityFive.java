@@ -1,17 +1,5 @@
 package edu.ztone.timenote.register;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
-import com.example.timenote.R;
-
-import edu.ztone.timenote.activity.MainActivity;
-import edu.ztone.timenote.biz.UserBiz;
-import edu.ztone.timenote.biz.impl.UserBizImpl;
-import edu.ztone.timenote.login.LoginAcrivity;
-import edu.ztone.timenote.po.User;
-import edu.ztone.timenote.util.CircularImage;
-import edu.ztone.timenote.util.MyApplication;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -24,6 +12,18 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.timenote.R;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import edu.ztone.timenote.biz.UserBiz;
+import edu.ztone.timenote.biz.impl.UserBizImpl;
+import edu.ztone.timenote.login.LoginAcrivity;
+import edu.ztone.timenote.po.User;
+import edu.ztone.timenote.util.CircularImage;
+import edu.ztone.timenote.util.MyApplication;
 
 public class RegisterActivityFive extends Activity {
 	private CircularImage circularImage;
@@ -59,11 +59,11 @@ public class RegisterActivityFive extends Activity {
 		public void onClick(View v) {
 			// TODO Auto-generated method stub
 			switch (v.getId()) {
-			case R.id.RFV_register_layout_imagetx:
+			/*case R.id.RFV_register_layout_imagetx:
 				intent = new Intent(Intent.ACTION_GET_CONTENT);
-				intent.setType("image/*");
+				intent.setType("image*//**//*");
 				startActivityForResult(intent, 200);
-				break;
+				break;*/
 			case R.id.RFV_bt_five:
 				String user_account = myApplication.getUser_Account();
 				String user_pwd = myApplication.getUser_Pwd();
