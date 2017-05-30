@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 外围放置LinearLayout -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp" >
+
+        <TextView
+            android:id="@+id/main_listitem_date"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="33dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <!-- 天气图标 -->
+
+            <ImageView
+                android:id="@+id/main_lilayout_weather_"
+                android:layout_width="33dp"
+                android:layout_height="26dp"
+                android:scaleType="fitXY" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#339999"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <!-- 右边：嵌套RelativeLayout布局 -->
+
+        <RelativeLayout
+            android:id="@+id/everyitem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp" >
+
+            <!-- 嵌套一个TableLayout -->
+
+            <TableLayout
+                android:id="@+id/main_listitem_table"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0" >
+
+                <!-- 一行 -->
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <!-- 第一列 -->
+
+                    <TextView
+                        android:id="@+id/main_listitem_week"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <!-- 第二列 -->
+
+                    <ImageView
+                        android:id="@+id/main_lilayout_mood"
+                        android:layout_width="26dp"
+                        android:layout_height="26dp"
+                        android:layout_gravity="right"
+                        android:scaleType="fitXY" />
+                </TableRow>
+            </TableLayout>
+
+            <!-- 内容显现TextView组件 -->
+
+            <TextView
+                android:id="@+id/main_listitem_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/main_listitem_table"
+                android:layout_marginTop="5dp"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+
+            <!-- 标签：显示发布具体时间 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_below="@id/main_listitem_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/main_listitem_img1"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    android:visibility="gone"
+                   />
+
+                <ImageView
+                    android:id="@+id/main_listitem_img2"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:scaleType="fitStart"
+                    android:visibility="gone"
+                     />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

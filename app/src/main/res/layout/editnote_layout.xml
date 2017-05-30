@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/editon1"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/editnote_Line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/editnote_activity_diary_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#555555"
+            android:textSize="22sp" />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="   "/>
+     
+        <Spinner
+            android:id="@+id/spiWeather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="   "/>
+        <Spinner
+            android:id="@+id/spiMood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/editnote_line5"
+        android:layout_below="@id/editnote_Line"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/editnote_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/txt_edit"
+                android:gravity="top"
+                android:hint="请输入日记内容"
+                android:lineSpacingExtra="8dp"
+                android:paddingTop="8dp"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+         android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/editnote_img1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/add"
+                   android:layout_weight="1"
+                android:visibility="visible" 
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:id="@+id/editnote_img2"
+               android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/add"
+      android:layout_weight="1"
+                android:visibility="invisible" 
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:id="@+id/editnote_img3"
+               android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/add"
+        android:layout_weight="1"
+                android:visibility="invisible"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/editnote_img4"
+               android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/add"
+                  android:layout_weight="1"
+                android:visibility="invisible"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/editnote_line5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+         <ImageButton
+            android:id="@+id/editnote_txtshapebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@android:drawable/ic_menu_more" />
+        <ImageButton
+            android:id="@+id/editnote_txtsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@android:drawable/ic_menu_edit" />
+
+       
+        <ImageButton
+            android:id="@+id/editnote_txtcolorbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@android:drawable/ic_menu_compass" />
+
+        
+         <ImageButton
+            android:id="@+id/editnote_imgbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@android:drawable/ic_menu_gallery" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

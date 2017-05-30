@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置组件的边角角度 -->
+    <corners android:radius="8px" />
+    <!-- 设置组件背景颜色 -->
+    <solid android:color="#f1fafa" />
+    <!-- 设置边框颜色 -->
+    <stroke
+        android:width="0.5px"
+        android:color="#666666" />
+
+</shape>

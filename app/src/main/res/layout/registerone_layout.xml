@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground1"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp" >
+
+        <TextView
+            android:id="@+id/RO_TV_information"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="完善信息加入TIME"
+            android:textSize="25dp" />
+
+        <View
+            android:id="@+id/RO_v_line1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#EBEBEB" />
+
+        <TextView
+            android:id="@+id/RO_TV_informationaccount"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="填写一个账号："
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/RO_register_layout_uname"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/text_shape" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="提示：账号是用户唯一的登录凭证，请妥善保管。账号只能由字母组成。"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:gravity="center_horizontal"
+        android:paddingBottom="50dp"
+    >
+
+        <Button
+            android:id="@+id/RO_bt_one"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:background="@drawable/bt_register_res"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="n e x t"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

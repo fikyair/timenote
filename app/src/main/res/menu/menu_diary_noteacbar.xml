@@ -1,0 +1,33 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/finish"  
+         android:orderInCategory="1"
+        android:icon="@drawable/btn_check_buttonless_on"  
+        android:showAsAction="always"  
+        android:title="完成"/>  
+        <item android:id="@+id/share"  
+         android:orderInCategory="2"
+        android:icon="@android:drawable/ic_menu_share"  
+        android:showAsAction="never"  
+        android:title="  分享"/>  
+        <item  
+        android:id="@+id/add"  
+         android:orderInCategory="3"
+        android:icon="@android:drawable/ic_menu_set_as"  
+        android:showAsAction="never"  
+        android:title="  添加到手机屏幕"/>  
+
+    <item  
+        android:id="@+id/set"  
+        android:icon="@android:drawable/ic_menu_manage"
+        android:orderInCategory="5"  
+        android:showAsAction="never"  
+        android:title="  设置"/>  
+          <item  
+        android:id="@+id/help" 
+        android:orderInCategory="6"   
+        android:icon="@android:drawable/ic_menu_help"  
+        android:showAsAction="never"  
+        android:title="  反馈客服"/>  
+ 
+           </menu>

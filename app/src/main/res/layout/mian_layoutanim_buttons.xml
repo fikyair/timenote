@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/main_relayout_btn_video"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_action_video_light"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/main_relayout_btn_camera"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_action_camera_light"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/main_relayout_btn_chat"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/main_relayout_btn_menu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_action_chat_light"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/main_relayout_btn_menu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_action_new_light" />
+
+</RelativeLayout>

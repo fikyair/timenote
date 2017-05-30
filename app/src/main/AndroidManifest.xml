@@ -1,0 +1,58 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.timenote"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+
+    <application
+        android:name="edu.ztone.timenote.util.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/applicationicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity android:name="edu.ztone.timenote.activity.WelcomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="edu.ztone.timenote.activity.SettingActivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.login.LoginAcrivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.login.RegisterActivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.activity.EditNoteActivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.activity.PersonalActivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.activity.MainActivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.activity.ClockActivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.register.RegisterActivityOne" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.register.RegisterActivityThree" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.register.RegisterActivityTwo" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.register.RegisterActivityFive" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.register.RegisterActivityFour" >
+        </activity>
+                <activity android:name="edu.ztone.timenote.lock.CreateGesturePasswordActivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.lock.GuideGesturePasswordActivity" >
+        </activity>
+        <activity android:name="edu.ztone.timenote.lock.UnlockGesturePasswordActivity" >
+            </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">时光随笔</string>
+    <string name="settings_text_rule1">常规</string>
+    <string name="settings_text_rule2">其他</string>
+    <string name="settings_text_item1">字体</string>
+    <string name="settings_text_explain1">点击切换多种字体</string>
+    <string name="settings_text_item2">同步账户</string>
+    <string name="settings_text_explain2">您的有效邮箱将多于一个，请点击选择</string>
+    <string name="settings_text_item3">备份到本地</string>
+    <string name="settings_text_explain3">日记的备份路径：SD/TimeNote/notes.text</string>
+    <string name="settings_text_item4">产品介绍</string>
+    <string name="settings_text_explain4">www.Ztone.com</string>
+    <string name="settings_text_item5">意见反馈</string>
+    <string name="settings_text_explain5"></string>
+    <string name="settings_text_item6">版本信息</string>
+    <string name="settings_text_explain6">TimeNote1.0开发版，测试调试阶段，敬请期待！</string>
+    <string name="head">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="gender">性别</string>
+    <string name="birthday">生日</string>
+    <string name="account">账号</string>
+    <string name="logout">退出登录</string>
+    <string name="none">未填写</string>
+    <string name="change_password_failed">修改密码失败!</string>
+    <string name="change_password_succ">修改密码成功!</string>
+    <string name="set_password_succ">设置密码成功!</string>
+    <string name="set_password_failde">设置密码失败!</string>
+    <string name="set_password">Set password</string>
+    <string name="change_password">修改密码</string>
+    <string name="clear_password">清除密码</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockpattern_retry_button_text">"重试"</string>
+    <string name="lockpattern_continue_button_text">"继续"</string>
+    <string name="lockpattern_confirm_button_text">"确认"</string>
+    <string name="lockpattern_recording_intro_header">"绘制解锁图案"</string>
+    <string name="lockpattern_settings_help_how_to_record">"如何绘制解锁图案"</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="lockpattern_pattern_entered_header">"图案已记录"</string>
+    <string name="lockpattern_need_to_confirm">"请再次绘制解锁图案"</string>
+    <string name="lockpattern_need_to_unlock_wrong">"与上次输入不一致，请重试"</string>
+    <string name="lockpattern_pattern_confirmed_header">"确认保存新解锁图案"</string>
+    <string name="lockpattern_recording_inprogress">"完成后松开手指"</string>
+    <string name="gesture_password_guide_text">你可以创建一个解锁图案，这样他人在借用你的手机时，将无法打开应用。</string>
+    <string name="gesture_password_guide_creat_btn">创建手势密码</string>
+
+
+</resources>
